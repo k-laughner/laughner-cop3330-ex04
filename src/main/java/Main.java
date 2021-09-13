@@ -22,6 +22,6 @@ public class Main {
         Scanner input4 = new Scanner(System.in);
         String adverb = input4.nextLine();
 
-        System.out.println("Do you " + verb + " your " + adj + " " + noun + " " + adverb + "? That's hilarious!");
+       System.out.printf("Do you %s your %s %s %s? That's hilarious!", verb, adj, noun, adverb);
     }
 }
